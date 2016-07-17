@@ -208,6 +208,7 @@
 			changeScroll();
 			$(window).bind('scroll',function(){
 				changeScroll();
+				aaa();
 			});
 		});
 		var changeScroll = function() {
@@ -220,6 +221,9 @@
 			} else {
 				$('.top_scroll_menu').removeClass('on');
 			}
+		}
+		var aaa = function() {
+			console.log('aaaaa');
 		}
     </script>
 

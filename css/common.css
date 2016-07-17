@@ -1,0 +1,137 @@
+/*@font-face{font-family:nato; src:url(../font/NSKR400.woff);}*/
+
+html{height:100%; width:100%;}
+body{word-wrap:break-word; word-break:break-all; -webkit-text-size-adjust:none; height:100%; font-family:Helvetica, malgun gothic,"맑은 고딕",Apple SD Gothic Neo,"돋움",Dotum,Helvetica,Arial,Verdana,sans-serif}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, textarea, p, blockquote, th, td, input, select, textarea, button{margin:0; padding:0; font-size:100%; vertical-align:middle} 
+body, th, td, input, select, textarea, button, pre{font-size:13px; line-height:120%; color:#666; /*font-family:nato; */}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display:block;}
+img, fieldset, iframe{border:none}
+img{vertical-align:middle}
+form, input, ol, ul, li, dl, dt, dd, fieldset{margin:0; padding:0; list-style:none}
+blockquote, q{quotes:none}
+bloquote:before, blockquote:after, q:before, q:after{content:""; content:none}
+table{border-collapse:collapse; border-spacing:0; }
+a{text-decoration:none; color:#000}
+a:link, a:visited, a:hover, a:action{text-decoration:none}
+legend, hr, caption{visibility:hidden; overflow:hidden; position:absolute; top:0; left:-3000px; width:.1%; line-height:.1%; font-size:.1%;}
+.hidden{visibility:hidden; overflow:hidden; position:absolute; top:0; left:-3000px; width:.1%; line-height:.1%; font-size:.1%;}
+.n_price{word-break:normal}
+
+figure{padding:0; margin:0}
+.mal10{margin-left:10px}
+.mar0{margin-right:0px !important;}
+.pab70{padding-bottom:70px !important; }
+.mal15{margin-left:15px!important;}
+.mat5{margin-top:5px !important;}
+.mat10{margin-top:10px !important;}
+.mat20{margin-top:20px !important;}
+.mat35{margin-top:35px !important;}
+.mat8{margin-top:8px!important;}
+.pal10{padding-left:10px;}
+.overHidden{overflow:hidden}
+.bdTNone{border-top:none !important}
+.bdBNone{border-bottom:none !important}
+textarea{font-family:malgun gothic,"맑은 고딕",Apple SD Gothic Neo,"돋움",Dotum,Helvetica,Arial,Verdana,sans-serif }
+a, button, input, textarea{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	/*-webkit-touch-callout:none;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none; 
+	user-select:none*/
+
+}
+
+.name_search_field label{border:none !important}
+
+input[type="text"]{color:#000; text-indent:10px; ime-mode:active; border-radius:0}
+input[type="tel"]{text-indent:10px; border-radius:0}
+input[type="number"]{text-indent:10px; border-radius:0}
+input[type="email"]{text-indent:10px; border-radius:0}
+.input_style{border:1px solid #d2d2d2;}
+
+.input_style input[type="text"]{ height:30px; line-height:30px; width:100%; border:none;  ime-mode:active; border-radius:0}
+
+/*input type radio css 정의*/
+input[type="radio"]{display:none}
+input[type="radio"] + label{display:inline-block;  background:url(../images/btn_radio_off.png) no-repeat left center;  background-size:16px; padding-left:20px; font-weight:bold;}
+input[type="radio"]:checked + label{ background:url(../images/btn_radio_on.png) no-repeat left center; padding-left:20px;  background-size:16px; color:#1e8bc8; font-weight:bold;}
+
+
+/*input type checkbox css 정의*/
+input[type="checkbox"]{display:none}
+input[type="checkbox"] + label{display:inline-block;  background:url(../images/checkbox_off.png) no-repeat left center;  background-size:18px; padding-left:25px; min-height:18px;}
+input[type="checkbox"]:checked + label{ background:url(../images/checkbox_on.png) no-repeat left center; padding-left:25px;  background-size:18px}
+
+/*input type checkbox css _전체선택 정의*/
+input.all_select[type="checkbox"]{display:none}
+input.all_select[type="checkbox"] + label{display:inline-block;  background:url(../images/checkbox_all_off.png) no-repeat left center;  background-size:18px; padding-left:25px; min-height:18px;}
+input.all_select[type="checkbox"]:checked + label{ background:url(../images/checkbox_on.png) no-repeat left center; padding-left:25px;  background-size:18px; color:#000}
+
+
+/*input type radio css 비활성화 정의*/
+input.r_disabled[type="radio"]{display:none}
+input.r_disabled[type="radio"] + label{display:inline-block;  background:url(../images/btn_radio_disabled.png) no-repeat left center;  background-size:15px; padding-left:20px; font-weight:bold;}
+input.r_disabled[type="radio"]:checked + label{ background:url(../images/btn_radio_disabled.png) no-repeat left center; padding-left:20px;  background-size:15px; color:#e3e3e3; font-weight:bold;}
+
+
+.wrapper{position:relative; width:1800px; margin:0 auto; overflow:hidden;}
+.top_menu{position:absolute; left:0; top:0; z-index:1000;}
+
+.menu_left{position:absolute; left:0; top:450px; z-index:1100;}
+.menu_left.on{display:block;}
+
+.menu_left_area{position:relative;}
+.spot_left_btn{position:absolute; z-index:1200; display:none}
+.spot_left_btn.on{display:block;}
+.spot_left_close{position:absolute; left:0; top:0; z-index:1100; display:none;}
+.spot_left_close.on{display:block}
+.left_click_menu{position:absolute; left:0; top:-450px;  z-index:1009; display:none;}
+.left_click_menu.on{display:block;}
+
+.menu_right{position:absolute; right:0; top:450px; z-index:1100;}
+
+
+.top_scroll_menu{position:fixed; left:inherit; top:0px; display:none; z-index:1200;}
+.top_scroll_menu.on{display:block;}
+
+
+.block01_area{height:665px; background:url(../images/block01_back01.jpg) no-repeat; position:relative;}
+.block01_area .block01_text{position:absolute; left:0; top:230px;}
+
+.block02_area:after{content:""; display:block; clear:both;}
+.block02_area > div{float:left; width:900px;}
+
+.block03_area:after{content:""; display:block; clear:both;}
+.block03_area > div{float:left; width:900px;}
+
+.block04_area{height:649px; background:url(../images/block05_back01.jpg) no-repeat; position:relative}
+.block04_text{position:absolute; left:0; top:250px;}
+.block04_text02{position:absolute; left:0; top:450px;}
+
+.block06_area{height:646px; background:url(../images/block07_back01.jpg) no-repeat; position:relative;}
+
+.block06_text{position:absolute; left:0; top:240px;}
+.block06_text02{position:absolute; left:0; top:430px;}
+
+.pg02_block01_area{height:665px; background:url(../images/page02_block01.jpg) no-repeat; position:relative;}
+.pg02_block01_text{position:absolute; left:0; top:235px;}
+.pg02_block01_text02{position:absolute; left:0; top:460px;}
+
+.pg02_block02_area:after{content:""; display:block; clear:both;}
+.pg02_block02_area > div{float:left; width:900px;}
+
+.pg02_block03_area{height:665px; background:url(../images/page02_block04_back.jpg) no-repeat; position:relative;}
+.pg02_block03_text{position:absolute; left:0; top:247px;}
+.pg02_block03_text02{position:absolute; left:0; top:455px;}
+
+
+.pg02_block05_area{height:663px; background:url(../images/page02_block06_back.jpg) no-repeat; position:relative;}
+.pg02_block05_text{position:absolute; left:0; top:246px}
+.pg02_block05_text02{position:absolute; left:0; top:457px}
+
+
+
+
+
+

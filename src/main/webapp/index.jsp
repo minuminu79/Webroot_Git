@@ -1,6 +1,6 @@
 <%--
   Class Name : index.jsp
-  Description : 최초화면으로 메인화면으로 이동한다.(system)1
+  Description : 최초화면으로 메인화면으로 이동한다.(system)
   Modification Information
  
       수정일         수정자                   수정내용

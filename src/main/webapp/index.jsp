@@ -1,6 +1,6 @@
 <%--
   Class Name : index.jsp
-  Description :  .
+  Description : okok nono???
   Modification Information
  
       수정일         수정자                   수정내용

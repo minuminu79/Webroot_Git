@@ -1,5 +1,5 @@
 <%--
-  Class Name : index.jsp
+  Class Name : index.jspp
   Description : 최초화면으로 메인화면으로 이동한다.(system)
   Modification Information
  
